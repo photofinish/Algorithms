@@ -1,5 +1,4 @@
-package base;
-
+import base.Bag;
 
 /**
  * 加权有向图
