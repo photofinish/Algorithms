@@ -1,4 +1,4 @@
-package base.digraph;
+package digraph;
 
 /**
  * 有向图--强连通性

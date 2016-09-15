@@ -1,4 +1,6 @@
-package base.digraph;
+package digraph;
+
+import ewdigraph.EdgeWeightedDigraph;
 
 /**
  * 有向图--拓扑排序
@@ -8,6 +10,14 @@ public class Topological {
     private Iterable<Integer> order;
 
     public Topological(Digraph G) {
+        DirectedCycle cyclefinder = new DirectedCycle(G);
+        if (!cyclefinder.hasCycle()) {
+            DepthFirstOrder dfs = new DepthFirstOrder(G);
+            order = dfs.reversePost();
+        }
+    }
+
+    public Topological(EdgeWeightedDigraph G) {
         DirectedCycle cyclefinder = new DirectedCycle(G);
         if (!cyclefinder.hasCycle()) {
             DepthFirstOrder dfs = new DepthFirstOrder(G);

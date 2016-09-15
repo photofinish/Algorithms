@@ -1,3 +1,5 @@
+package ewdigraph;
+
 /**
  * 加权有向图边
  */

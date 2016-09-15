@@ -1,4 +1,4 @@
-package base.digraph;
+package digraph;
 
 import base.Queue;
 import base.Stack;

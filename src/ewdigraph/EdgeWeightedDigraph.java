@@ -1,3 +1,5 @@
+package ewdigraph;
+
 import base.Bag;
 
 /**
@@ -44,6 +46,6 @@ public class EdgeWeightedDigraph {
 
     @Override
     public String toString() {
-        return "EdgeWeightedDigraph{}";
+        return "";
     }
 }

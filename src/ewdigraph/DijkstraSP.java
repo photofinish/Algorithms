@@ -1,3 +1,5 @@
+package ewdigraph;
+
 import base.IndexMinPQ;
 import base.Stack;
 
