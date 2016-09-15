@@ -19,7 +19,7 @@ public class DepthFirstOrder {
         marked = new boolean[G.V()];
 
         for (int v = 0; v < G.V(); v++) {
-            dfs(G, int v);
+            dfs(G, v);
         }
     }
 

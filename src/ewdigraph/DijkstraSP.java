@@ -4,7 +4,7 @@ import base.IndexMinPQ;
 import base.Stack;
 
 /**
- * 加权有向图--最短路径
+ * 非负权重的加权有向图--最短路径
  * Dijkstra算法: 每次添加离起点最近的非树顶点, 放松(relax)此顶点的邻边
  * 所需空间与V成正比，最坏情况时间与ElogV成正比
  */

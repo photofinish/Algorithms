@@ -41,7 +41,4 @@ public class Digraph {
         return R;
     }
 
-    public String toString() {
-
-    }
 }

@@ -43,9 +43,4 @@ public class EdgeWeightedDigraph {
                 bag.add(e);
         return bag;
     }
-
-    @Override
-    public String toString() {
-        return "";
-    }
 }
