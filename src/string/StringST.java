@@ -124,7 +124,7 @@ public class StringST<Value> {
         int cnt = 0;
         if (x.val != null) cnt++;
         for (char c = 0; c < R; c++)
-            cnt += size(next[c]);
+            cnt += size(x.next[c]);
         return cnt;
     }
 
