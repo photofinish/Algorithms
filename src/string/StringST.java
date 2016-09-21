@@ -4,7 +4,7 @@ package string;
 import base.Queue;
 
 /**
- *
+ * 单词查找树
  */
 public class StringST<Value> {
     private static int R = 256;
