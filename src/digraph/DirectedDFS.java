@@ -14,6 +14,14 @@ public class DirectedDFS {
         dfs(G, s);
     }
 
+    public DirectedDFS(Digraph G, Iterable<Integer> sources) {
+        marked = new boolean[G.V()];
+
+        for (int v : sources)
+            if (!marked(v))
+                dfs(G, v);
+    }
+
     public boolean marked(int v) {
         return marked[v];
     }
