@@ -70,4 +70,8 @@ public class TST<Value> {
         return x;
     }
 
+    public String longestPrefixOf(String input) {
+        return null;
+    }
+
 }
