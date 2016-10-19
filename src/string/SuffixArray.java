@@ -54,6 +54,7 @@ public class SuffixArray {
             else if (cmp > 0) lo = mid + 1;
             else return mid;
         }
+        return lo;
     }
 }
 
